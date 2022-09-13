@@ -98,6 +98,8 @@ public class Snake : MonoBehaviour
         CheckWater();
 
         m_FacingDirection = (Vector2)direction;
+
+        AudioManager.instance.Play("move");
     }
 
     public void Retreat(Vector2Int tail)

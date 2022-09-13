@@ -4591,6 +4591,12 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: move
+    clip: {fileID: 8300000, guid: ce15ed94f67542040a4458373d3a8a47, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &1897788591
 Transform:
   m_ObjectHideFlags: 0
